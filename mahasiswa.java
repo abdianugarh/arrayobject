@@ -52,22 +52,6 @@ public class mahasiswa {
 		}
 		
 		public static void main(String[] args) {
-			mahasiswa data = new mahasiswa();
-			//menggunakan method setter
-			data.setnama("abdi anugrah");
-			data.setnim("d0217531");
-			data.setalamat("desa parappe");
-			data.setgdarah("B");
-			data.setstatus("berpacaran");
-			data.setTbadan(167);
-			data.setBbadan(50);
-			//menggunakan method getter
-			System.out.println("nama : "+data.getnama());
-			System.out.println("nim  : "+data.getnim());
-			System.out.println("alamata : "+data.getalamat());
-			System.out.println("golongan darah : "+data.getgdarah());
-			System.out.println("status : "+data.getstatus());
-			System.out.println("tinggi badan : "+data.getTbadan()+"cm");
-			System.out.println("berat badan  : "+data.getbbadan()+"kg");
+			
 		}
 }
