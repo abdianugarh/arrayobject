@@ -30,18 +30,6 @@ public class kotak {
 			this.keliling=sembarangkeliling;
 		}
 	
-	public static void main(String[] args) {
-		kotak data = new kotak();
-		//menggunakan method setter
-		data.setpanjang(20);
-		data.setlebar(20);
-		data.setluas(data.getpanjang() * data.getlebar());
-		//menggunakan method getter
-		System.out.println("panjang kotak  : "+data.getpanjang());
-		System.out.println("lebar kotak    : "+data.getlebar());
-		System.out.println("luas kotak     : "+data.getluas());
-		System.out.println("keliling kotak : "+data.getkeliling());
-
-	}
+	
 
 }
